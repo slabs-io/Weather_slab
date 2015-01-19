@@ -16,7 +16,7 @@ exports.getLabel = function(property, settings){
     }
 
     if(property === 'temp'){
-        return 'Temperature in ' + searchTerm;
+        return 'Temperature in ' + searchTerm + '(Degrees Celsius)';
     }
 
     return property + ' : bad property name';
