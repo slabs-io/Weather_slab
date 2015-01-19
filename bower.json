@@ -1,0 +1,23 @@
+{
+  "name": "weather-slab",
+  "version": "0.0.0",
+  "authors": [
+    "Ben Brunton <ben@slabs.io>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/lib",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.1",
+    "slabs.io.js": "~0.0.5"
+  },
+  "resolutions": {
+    "bootstrap": "~3.3.1"
+  }
+}

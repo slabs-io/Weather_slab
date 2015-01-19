@@ -1,0 +1,6 @@
+{
+  "name" : "Tweet Counter",
+  "type" : "source",
+  "connectionsIn" : 1,
+  "connectionsOut" : 3
+}
