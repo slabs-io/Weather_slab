@@ -1,5 +1,5 @@
 {
-  "name" : "Weather",
+  "name" : "Local Temperature",
   "type" : "source",
   "connectionsIn" : 1,
   "connectionsOut" : 3
