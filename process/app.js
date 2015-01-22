@@ -46,7 +46,7 @@ exports.getData = function(settings) {
     var req = http.request({
         host:'api.openweathermap.org',
         port:80,
-        path: '/data/2.5/weather?q='+searchTerm+'&units=metric',
+        path: '/data/2.5/weather?q='+searchTerm,
         method: 'GET',
         headers: {
             'User-Agent': 'slabs.io',
@@ -69,7 +69,7 @@ exports.getData = function(settings) {
         res.on('end', function(){
             var data = JSON.parse(output);
             deferred.resolve({
-                temp: data.main.temp
+                temp: data.main.temp - 273.15
             });
         });
 
