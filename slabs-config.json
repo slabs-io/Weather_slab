@@ -2,5 +2,21 @@
   "name" : "Local Temperature",
   "type" : "source",
   "connectionsIn" : 1,
-  "connectionsOut" : 3
+  "connectionsOut" : 3,
+  "schema" : {
+    "type": "object",
+    "properties" : {
+      "searchTerm": {
+        "type": "string",
+        "default": "London,UK",
+        "description" : "In the format 'city,countrycode' e.g. 'Leeds,uk'",
+        "minLength" : 2,
+        "title": "Location"
+      }
+    }
+  },
+  "source": {
+    "label": "Open weather map",
+    "url": "http://openweathermap.org/"
+  }
 }
