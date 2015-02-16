@@ -9,10 +9,11 @@
     "properties" : {
       "searchTerm": {
         "type": "string",
-        "default": "London,UK",
-        "description" : "In the format 'city,countrycode' e.g. 'Leeds,uk'",
+        "default": "London, UK",
+        "description" : "In the format 'city, countrycode' e.g. 'Leeds, UK'",
         "minLength" : 2,
-        "title": "Location"
+        "title": "Location",
+        "brief": "Location"
       }
     }
   },
