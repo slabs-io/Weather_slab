@@ -3,6 +3,7 @@
   "type" : "source",
   "connectionsIn" : 1,
   "connectionsOut" : 3,
+  "customIcon" : "fa-sun-o",
   "schema" : {
     "type": "object",
     "properties" : {
